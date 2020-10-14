@@ -1,4 +1,4 @@
-package dblp
+package main
 
 import (
 	"fmt"
@@ -67,7 +67,7 @@ func (scrap *dblp_scrap) save(fname string){
 	}
 }
 
-var scrap dblp_scrap
+// var scrap dblp_scrap
 
 // func main(){
 // 	scrap.init("conf", "cvpr", "2019")

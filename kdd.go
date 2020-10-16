@@ -2,15 +2,16 @@ package main
 
 import (
 	"fmt"
-	// "time"
+	"time"
 	"github.com/gocolly/colly"
-	// "encoding/csv"
-	// "os"
+	"encoding/csv"
+	"encoding/json"
+	"os"
 )
 
 type author struct{
-	name string
-	id string
+	Name string `json:"name"`
+	Id string `json:"id"`
 }
 
 type paper struct{
@@ -18,6 +19,7 @@ type paper struct{
 	doi string
 	abstract string
 	authors []author
+	references []string
 }
 
 type kdd_scrap struct{
@@ -29,12 +31,77 @@ func (scrap * kdd_scrap) init(){
 	scrap.c = colly.NewCollector(
 		colly.AllowedDomains("dl.acm.org"),
 		colly.Async(true),
+		colly.UserAgent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"),
 	)
 	scrap.paper_channel = make(chan paper, 10240)
 	
+	scrap.c.OnHTML("article", func(e *colly.HTMLElement) {
+		var p paper
+		p.title = e.ChildText(".citation__title")
+		p.doi = e.ChildAttr("a.issue-item__doi", "href")
+		p.abstract = e.ChildText("div.abstractSection.abstractInFull p")
+		e.ForEach(".loa__item", func(_ int, el *colly.HTMLElement){
+			var a author
+			a.Name = el.ChildAttr(".author-name", "title")
+			a.Id = el.ChildAttr(".btn.blue.stretched","href")
+			p.authors = append(p.authors, a)
+		})
+		// reference
+		e.ForEach(".references__item", func(_ int, el *colly.HTMLElement){
+			ref := el.ChildText("span.references__note")
+			p.references = append(p.references, ref)
+		})
+		scrap.paper_channel <- p
+	})
+
+	scrap.c.Limit(&colly.LimitRule{
+		Parallelism: 2,
+		RandomDelay: 5 * time.Second,
+	})
+
+	scrap.c.OnRequest(func(r *colly.Request) {
+		fmt.Println("Visiting", r.URL.String())
+	})
 }
 
-func main(){
-	
-
+func (scrap *kdd_scrap) visit(link string){
+	scrap.c.Visit(link)
+	scrap.c.Wait()
 }
+
+func (scrap *kdd_scrap) close(){
+	close(scrap.paper_channel)
+}
+
+func (scrap *kdd_scrap) save(fname string){
+	file, err:=os.Create(fname)
+	if err!=nil{
+		fmt.Println("cannot creat file")
+		return
+	}
+	defer file.Close()
+	writer := csv.NewWriter(file)
+	writer.Write([]string{"doi", "title","abstract","authors","references"})
+	defer writer.Flush()
+	for i:= range scrap.paper_channel{
+		a, err := json.Marshal(i.authors)
+		if err != nil {
+			fmt.Println("cannot marchal authors")
+			return
+		}
+		r, err := json.Marshal(i.references)
+		if err != nil{
+			fmt.Println("cannot marchal references")
+			return
+		}
+		writer.Write([]string{i.doi,i.title,i.abstract,string(a),string(r)})
+	}
+}
+
+// var scrap kdd_scrap
+
+// func main(){
+// 	scrap.init()
+// 	scrap.visit("https://dl.acm.org/doi/10.1145/3394486.3403044")
+// 	scrap.save(".acm.csv")	
+// }

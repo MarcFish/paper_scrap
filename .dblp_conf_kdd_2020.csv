@@ -1,0 +1,410 @@
+link,title
+https://dl.acm.org/doi/10.1145/3394486.3407096,AI for Intelligent Financial Services: Examples and Discussion.
+https://dl.acm.org/doi/10.1145/3394486.3407093,Keynote Speaker: Emery N. Brown.
+https://dl.acm.org/doi/10.1145/3394486.3407094,Keynote Speaker: Yolanda Gil.
+https://dl.acm.org/doi/10.1145/3394486.3407097,Keynote Speaker: Alessandro Vespignani.
+https://dl.acm.org/doi/10.1145/3394486.3403043,Learning Effective Road Network Representation with Hierarchical Graph Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403044,Interpretability is a Kind of Safety: An Interpreter-based Ensemble for Adversary Defense.
+https://dl.acm.org/doi/10.1145/3394486.3403045,Higher-order Clustering in Complex Heterogeneous Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403046,Preserving Dynamic Attention for Long-Term Spatial-Temporal Prediction.
+https://dl.acm.org/doi/10.1145/3394486.3403047,Learning to Extract Attribute Value from Product via Question Answering: A Multi-task Approach.
+https://dl.acm.org/doi/10.1145/3394486.3403048,Kernel Assisted Learning for Personalized Dose Finding.
+https://dl.acm.org/doi/10.1145/3394486.3403049,Graph Structure Learning for Robust Graph Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403050,An Efficient Neighborhood-based Interaction Model for Recommendation on Heterogeneous Graph.
+https://dl.acm.org/doi/10.1145/3394486.3403051,Directional Multivariate Ranking.
+https://dl.acm.org/doi/10.1145/3394486.3403052,Truth Discovery against Strategic Sybil Attack in Crowdsourcing.
+https://dl.acm.org/doi/10.1145/3394486.3403053,Partial Multi-Label Learning via Probabilistic Graph Matching Mechanism.
+https://dl.acm.org/doi/10.1145/3394486.3403054,Spectrum-Guided Adversarial Disparity Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403055,Attention and Memory-Augmented Networks for Dual-View Sequential Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403056,Semantic Search in Millions of Equations.
+https://dl.acm.org/doi/10.1145/3394486.3403057,SSumM: Sparse Summarization of Massive Graphs.
+https://dl.acm.org/doi/10.1145/3394486.3403058,Rethinking Pruning for Accelerating Deep Inference At the Edge.
+https://dl.acm.org/doi/10.1145/3394486.3403059,Compositional Embeddings Using Complementary Partitions for Memory-Efficient Recommendation Systems.
+https://dl.acm.org/doi/10.1145/3394486.3403060,Structural Patterns and Generative Models of Real-world Hypergraphs.
+https://dl.acm.org/doi/10.1145/3394486.3403061,Efficient Algorithm for the b-Matching Graph.
+https://dl.acm.org/doi/10.1145/3394486.3403062,Isolation Distributional Kernel: A New Tool for Kernel based Anomaly Detection.
+https://dl.acm.org/doi/10.1145/3394486.3403063,NodeAug: Semi-Supervised Node Classification with Data Augmentation.
+https://dl.acm.org/doi/10.1145/3394486.3403064,An Embarrassingly Simple Approach for Trojan Attack in Deep Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403065,Kronecker Attention Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403066,GRACE: Generating Concise and Informative Contrastive Sample to Explain Neural Network Model's Prediction.
+https://dl.acm.org/doi/10.1145/3394486.3403067,Hierarchical Attention Propagation for Healthcare Representation Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403068,SCE: Scalable Network Embedding from Sparsest Cut.
+https://dl.acm.org/doi/10.1145/3394486.3403069,Local Community Detection in Multiple Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403070,A Block Decomposition Algorithm for Sparse Optimization.
+https://dl.acm.org/doi/10.1145/3394486.3403071,Adversarial Infidelity Learning for Model Interpretation.
+https://dl.acm.org/doi/10.1145/3394486.3403072,Grounding Visual Concepts for Zero-Shot Event Detection and Event Captioning.
+https://dl.acm.org/doi/10.1145/3394486.3403073,"How to Count Triangles, without Seeing the Whole Graph."
+https://dl.acm.org/doi/10.1145/3394486.3403074,Incremental Lossless Graph Summarization.
+https://dl.acm.org/doi/10.1145/3394486.3403075,From Online to Non-i.i.d. Batch Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403076,Towards Deeper Graph Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403077,Laplacian Change Point Detection for Dynamic Graphs.
+https://dl.acm.org/doi/10.1145/3394486.3403078,Learning Transferrable Parameters for Long-tailed Sequential User Behavior Modeling.
+https://dl.acm.org/doi/10.1145/3394486.3403079,TranSlider: Transfer Ensemble Learning from Exploitation to Exploration.
+https://dl.acm.org/doi/10.1145/3394486.3403080,InFoRM: Individual Fairness on Graph Mining.
+https://dl.acm.org/doi/10.1145/3394486.3403081,Local Motif Clustering on Time-Evolving Graphs.
+https://dl.acm.org/doi/10.1145/3394486.3403082,A Data-Driven Graph Generative Model for Temporal Interaction Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403083,Recurrent Networks for Guided Multi-Attention Classification.
+https://dl.acm.org/doi/10.1145/3394486.3403084,Vulnerability vs. Reliability: Disentangled Adversarial Examples for Cross-Modal Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403085,XGNN: Towards Model-Level Explanations of Graph Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403086,CAST: A Correlation-based Adaptive Spectral Clustering Algorithm on Multi-scale Data.
+https://dl.acm.org/doi/10.1145/3394486.3403087,INPREM: An Interpretable and Trustworthy Predictive Model for Healthcare.
+https://dl.acm.org/doi/10.1145/3394486.3403088,Policy-GNN: Aggregation Optimization for Graph Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403089,Malicious Attacks against Deep Reinforcement Learning Interpretations.
+https://dl.acm.org/doi/10.1145/3394486.3403091,Disentangled Self-Supervision in Sequential Recommenders.
+https://dl.acm.org/doi/10.1145/3394486.3403092,DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation.
+https://dl.acm.org/doi/10.1145/3394486.3403093,MultiImport: Inferring Node Importance in a Knowledge Graph from Multiple Input Signals.
+https://dl.acm.org/doi/10.1145/3394486.3403094,Geodesic Forests.
+https://dl.acm.org/doi/10.1145/3394486.3403095,Z-Miner: An Efficient Method for Mining Frequent Arrangements of Event Intervals.
+https://dl.acm.org/doi/10.1145/3394486.3403096,Imputing Various Incomplete Attributes via Distance Likelihood Maximization.
+https://dl.acm.org/doi/10.1145/3394486.3403097,WeightGrad: Geo-Distributed Data Analysis Using Quantization for Faster Convergence and Better Accuracy.
+https://dl.acm.org/doi/10.1145/3394486.3403098,Feature-Induced Manifold Disambiguation for Multi-View Partial Multi-label Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403099,MinSearch: An Efficient Algorithm for Similarity Search under Edit Distance.
+https://dl.acm.org/doi/10.1145/3394486.3403100,Mining Large Quasi-cliques with Quality Guarantees from Vertex Neighborhoods.
+https://dl.acm.org/doi/10.1145/3394486.3403101,Residual Correlation in Graph Neural Network Regression.
+https://dl.acm.org/doi/10.1145/3394486.3403102,Towards Fair Truth Discovery from Biased Crowdsourced Answers.
+https://dl.acm.org/doi/10.1145/3394486.3403103,AutoShuffleNet: Learning Permutation Matrices via an Exact Lipschitz Continuous Penalty in Deep Convolutional Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403104,MoFlow: An Invertible Flow Model for Generating Molecular Graphs.
+https://dl.acm.org/doi/10.1145/3394486.3403105,Parallel DNN Inference Framework Leveraging a Compact RISC-V ISA-based Multi-core System.
+https://dl.acm.org/doi/10.1145/3394486.3403106,Missing Value Imputation for Mixed Data via Gaussian Copula.
+https://dl.acm.org/doi/10.1145/3394486.3403107,HiTANet: Hierarchical Time-Aware Attention Networks for Risk Prediction on Electronic Health Records.
+https://dl.acm.org/doi/10.1145/3394486.3403108,"Personalized PageRank to a Target Node, Revisited."
+https://dl.acm.org/doi/10.1145/3394486.3403109,Edge-consensus Learning: Deep Learning on P2P Networks with Nonhomogeneous Data.
+https://dl.acm.org/doi/10.1145/3394486.3403110,Deep Learning of High-Order Interactions for Protein Interface Prediction.
+https://dl.acm.org/doi/10.1145/3394486.3403113,MAMO: Memory-Augmented Meta-Optimization for Cold-start Recommendation.
+https://dl.acm.org/doi/10.1145/3394486.3403114,Finding Effective Geo-social Group for Impromptu Activities with Diverse Demands.
+https://dl.acm.org/doi/10.1145/3394486.3403115,Representing Temporal Attributes for Schema Matching.
+https://dl.acm.org/doi/10.1145/3394486.3403116,Estimating Properties of Social Networks via Random Walk considering Private Nodes.
+https://dl.acm.org/doi/10.1145/3394486.3403117,ASGN: An Active Semi-supervised Graph Neural Network for Molecular Property Prediction.
+https://dl.acm.org/doi/10.1145/3394486.3403118,Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403119,Learning Opinion Dynamics From Social Traces.
+https://dl.acm.org/doi/10.1145/3394486.3403120,Enterprise Cooperation and Competition Analysis with a Sign-Oriented Preference Network.
+https://dl.acm.org/doi/10.1145/3394486.3403121,BLOB: A Probabilistic Model for Recommendation that Combines Organic and Bandit Signals.
+https://dl.acm.org/doi/10.1145/3394486.3403122,AutoST: Efficient Neural Architecture Search for Spatio-Temporal Prediction.
+https://dl.acm.org/doi/10.1145/3394486.3403123,COMPOSE: Cross-Modal Pseudo-Siamese Network for Patient Trial Matching.
+https://dl.acm.org/doi/10.1145/3394486.3403124,Discovering Succinct Pattern Sets Expressing Co-Occurrence and Mutual Exclusivity.
+https://dl.acm.org/doi/10.1145/3394486.3403125,TIPRDC: Task-Independent Privacy-Respecting Data Crowdsourcing Framework for Deep Learning with Anonymized Intermediate Representations.
+https://dl.acm.org/doi/10.1145/3394486.3403126,AutoGrow: Automatic Layer Growing in Deep Convolutional Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403127,Curb-GAN: Conditional Urban Traffic Estimation through Spatio-Temporal Generative Adversarial Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403128,Incremental Mobile User Profiling: Reinforcement Learning with Spatial Knowledge Graph for Modeling Event Streams.
+https://dl.acm.org/doi/10.1145/3394486.3403129,Identifying Sepsis Subphenotypes via Time-Aware Multi-Modal Auto-Encoder.
+https://dl.acm.org/doi/10.1145/3394486.3403130,A Causal Look at Statistical Definitions of Discrimination.
+https://dl.acm.org/doi/10.1145/3394486.3403131,Targeted Data-driven Regularization for Out-of-Distribution Generalization.
+https://dl.acm.org/doi/10.1145/3394486.3403132,Neural Dynamics on Complex Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403133,Grammatically Recognizing Images with Tree Convolution.
+https://dl.acm.org/doi/10.1145/3394486.3403134,Generic Outlier Detection in Multi-Armed Bandit.
+https://dl.acm.org/doi/10.1145/3394486.3403135,Robust Spammer Detection by Nash Reinforcement Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403136,Mining Persistent Activity in Continually Evolving Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403137,Towards Automated Neural Interaction Discovery for Click-Through Rate Prediction.
+https://dl.acm.org/doi/10.1145/3394486.3403138,High-Dimensional Similarity Search with Quantum-Assisted Variational Autoencoder.
+https://dl.acm.org/doi/10.1145/3394486.3403139,Off-policy Bandits with Deficient Support.
+https://dl.acm.org/doi/10.1145/3394486.3403140,Adaptive Graph Encoder for Attributed Graph Embedding.
+https://dl.acm.org/doi/10.1145/3394486.3403141,NetTrans: Neural Cross-Network Transformation.
+https://dl.acm.org/doi/10.1145/3394486.3403142,Redundancy-Free Computation for Graph Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403143,Improving Conversational Recommender Systems via Knowledge Graph based Semantic Fusion.
+https://dl.acm.org/doi/10.1145/3394486.3403144,Sliding Sketches: A Framework using Time Zones for Data Stream Processing in Sliding Windows.
+https://dl.acm.org/doi/10.1145/3394486.3403145,STEAM: Self-Supervised Taxonomy Expansion with Mini-Paths.
+https://dl.acm.org/doi/10.1145/3394486.3403147,Probabilistic Metric Learning with Adaptive Margin for Top-K Recommendation.
+https://dl.acm.org/doi/10.1145/3394486.3403148,Re-identification Attack to Privacy-Preserving Data Analysis with Noisy Sample-Mean.
+https://dl.acm.org/doi/10.1145/3394486.3403149,BOND: BERT-Assisted Open-Domain Named Entity Recognition with Distant Supervision.
+https://dl.acm.org/doi/10.1145/3394486.3403150,Graph Structural-topic Neural Network.
+https://dl.acm.org/doi/10.1145/3394486.3403151,Correlation Networks for Extreme Multi-label Text Classification.
+https://dl.acm.org/doi/10.1145/3394486.3403152,Predicting Temporal Sets with Deep Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403153,FreeDOM: A Transferable Neural Architecture for Structured Information Extraction on Web Documents.
+https://dl.acm.org/doi/10.1145/3394486.3403154,SEAL: Learning Heuristics for Community Detection with Generative Adversarial Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403164,Matrix Profile XXI: A Geometric Approach to Time Series Chains Improves Robustness.
+https://dl.acm.org/doi/10.1145/3394486.3403165,Retrospective Loss: Looking Back to Improve Training of Deep Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403166,Average Sensitivity of Spectral Clustering.
+https://dl.acm.org/doi/10.1145/3394486.3403167,Semi-Supervised Multi-Label Learning from Crowds via Deep Sequential Generative Model.
+https://dl.acm.org/doi/10.1145/3394486.3403168,GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training.
+https://dl.acm.org/doi/10.1145/3394486.3403169,HGCN: A Heterogeneous Graph Convolutional Network-Based Deep Learning Model Toward Collective Classification.
+https://dl.acm.org/doi/10.1145/3394486.3403170,Handling Information Loss of Graph Neural Networks for Session-based Recommendation.
+https://dl.acm.org/doi/10.1145/3394486.3403171,Ultrafast Local Outlier Detection from a Data Stream with Stationary Region Skipping.
+https://dl.acm.org/doi/10.1145/3394486.3403172,LayoutLM: Pre-training of Text and Layout for Document Image Understanding.
+https://dl.acm.org/doi/10.1145/3394486.3403173,Block Model Guided Unsupervised Feature Selection.
+https://dl.acm.org/doi/10.1145/3394486.3403174,Data Compression as a Comprehensive Framework for Graph Drawing and Representation Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403175,Joint Policy-Value Learning for Recommendation.
+https://dl.acm.org/doi/10.1145/3394486.3403176,FedFast: Going Beyond Average for Faster Training of Federated Recommender Systems.
+https://dl.acm.org/doi/10.1145/3394486.3403177,AM-GCN: Adaptive Multi-channel Graph Convolutional Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403178,Discovering Approximate Functional Dependencies using Smoothed Mutual Information.
+https://dl.acm.org/doi/10.1145/3394486.3403179,Competitive Analysis for Points of Interest.
+https://dl.acm.org/doi/10.1145/3394486.3403180,HOPS: Probabilistic Subtree Mining for Small and Large Graphs.
+https://dl.acm.org/doi/10.1145/3394486.3403181,The NodeHopper: Enabling Low Latency Ranking with Constraints via a Fast Dual Solver.
+https://dl.acm.org/doi/10.1145/3394486.3403182,HGMF: Heterogeneous Graph-based Fusion for Multimodal Data with Incompleteness.
+https://dl.acm.org/doi/10.1145/3394486.3403183,ST-SiameseNet: Spatio-Temporal Siamese Networks for Human Mobility Signature Identification.
+https://dl.acm.org/doi/10.1145/3394486.3403184,A Novel Deep Learning Model by Stacking Conditional Restricted Boltzmann Machine and Deep Neural Network.
+https://dl.acm.org/doi/10.1145/3394486.3403185,InfiniteWalk: Deep Network Embeddings as Laplacian Embeddings with a Nonlinearity.
+https://dl.acm.org/doi/10.1145/3394486.3403186,xGAIL: Explainable Generative Adversarial Imitation Learning for Explainable Human Decision Analysis.
+https://dl.acm.org/doi/10.1145/3394486.3403187,Catalysis Clustering with GAN by Incorporating Domain Knowledge.
+https://dl.acm.org/doi/10.1145/3394486.3403188,Prediction and Profiling of Audience Competition for Online Television Series.
+https://dl.acm.org/doi/10.1145/3394486.3403189,Multi-Class Data Description for Out-of-distribution Detection.
+https://dl.acm.org/doi/10.1145/3394486.3403190,In and Out: Optimizing Overall Interaction in Probabilistic Graphs under Clustering Constraints.
+https://dl.acm.org/doi/10.1145/3394486.3403191,Recurrent Halting Chain for Early Multi-label Classification.
+https://dl.acm.org/doi/10.1145/3394486.3403192,Minimal Variance Sampling with Provable Guarantees for Fast Training of Graph Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403193,Discovering Functional Dependencies from Mixed-Type Data.
+https://dl.acm.org/doi/10.1145/3394486.3403194,Attackability Characterization of Adversarial Evasion Attack on Discrete Data.
+https://dl.acm.org/doi/10.1145/3394486.3403195,The Spectral Zoo of Networks: Embedding and Visualizing Networks with Spectral Moments.
+https://dl.acm.org/doi/10.1145/3394486.3403196,Unsupervised Differentiable Multi-aspect Network Embedding.
+https://dl.acm.org/doi/10.1145/3394486.3403197,AutoML Pipeline Selection: Efficiently Navigating the Combinatorial Space.
+https://dl.acm.org/doi/10.1145/3394486.3403198,Towards Physics-informed Deep Learning for Turbulent Flow Prediction.
+https://dl.acm.org/doi/10.1145/3394486.3403199,Evaluating Fairness Using Permutation Tests.
+https://dl.acm.org/doi/10.1145/3394486.3403200,Leveraging Model Inherent Variable Importance for Stable Online Feature Selection.
+https://dl.acm.org/doi/10.1145/3394486.3403201,Multi-level Graph Convolutional Networks for Cross-platform Anchor Link Prediction.
+https://dl.acm.org/doi/10.1145/3394486.3403202,Evaluating Conversational Recommender Systems via User Simulation.
+https://dl.acm.org/doi/10.1145/3394486.3403203,Measuring Model Complexity of Neural Networks with Curve Activation Functions.
+https://dl.acm.org/doi/10.1145/3394486.3403204,Diverse Rule Sets.
+https://dl.acm.org/doi/10.1145/3394486.3403205,Vamsa: Automated Provenance Tracking in Data Science Scripts.
+https://dl.acm.org/doi/10.1145/3394486.3403206,Deep State-Space Generative Model For Correlated Time-to-Event Predictions.
+https://dl.acm.org/doi/10.1145/3394486.3403207,Meta-learning on Heterogeneous Information Networks for Cold-start Recommendation.
+https://dl.acm.org/doi/10.1145/3394486.3403208,WavingSketch: An Unbiased and Generic Sketch for Finding Top-k Items in Data Streams.
+https://dl.acm.org/doi/10.1145/3394486.3403209,Dynamic Knowledge Graph based Multi-Event Forecasting.
+https://dl.acm.org/doi/10.1145/3394486.3403210,A Geometric Approach to Predicting Bounds of Downstream Model Performance.
+https://dl.acm.org/doi/10.1145/3394486.3403211,Context-to-Session Matching: Utilizing Whole Session for Response Selection in Information-Seeking Dialogue Systems.
+https://dl.acm.org/doi/10.1145/3394486.3403212,HOLMES: Health OnLine Model Ensemble Serving for Deep Learning Models in Intensive Care Units.
+https://dl.acm.org/doi/10.1145/3394486.3403213,LogPar: Logistic PARAFAC2 Factorization for Temporal Binary Data with Missing Values.
+https://dl.acm.org/doi/10.1145/3394486.3403214,RECORD: Resource Constrained Semi-Supervised Learning under Distribution Shift.
+https://dl.acm.org/doi/10.1145/3394486.3403215,Statistically Significant Pattern Mining with Ordinal Utility.
+https://dl.acm.org/doi/10.1145/3394486.3403217,Certifiable Robustness of Graph Convolutional Networks under Structure Perturbations.
+https://dl.acm.org/doi/10.1145/3394486.3403218,Understanding Negative Sampling in Graph Representation Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403219,Aligning Superhuman AI with Human Behavior: Chess as a Model System.
+https://dl.acm.org/doi/10.1145/3394486.3403220,Heidegger: Interpretable Temporal Causal Discovery.
+https://dl.acm.org/doi/10.1145/3394486.3403221,Interpretable Deep Graph Generation with Node-edge Co-disentanglement.
+https://dl.acm.org/doi/10.1145/3394486.3403222,Minimizing Localized Ratio Cut Objectives in Hypergraphs.
+https://dl.acm.org/doi/10.1145/3394486.3403223,RECIPTOR: An Effective Pretrained Model for Recipe Representation Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403224,Hyperbolic Distance Matrices.
+https://dl.acm.org/doi/10.1145/3394486.3403225,RayS: A Ray Searching Method for Hard-label Adversarial Attack.
+https://dl.acm.org/doi/10.1145/3394486.3403226,On Sampled Metrics for Item Recommendation.
+https://dl.acm.org/doi/10.1145/3394486.3403227,ALO-NMF: Accelerated Locality-Optimized Non-negative Matrix Factorization.
+https://dl.acm.org/doi/10.1145/3394486.3403228,Multi-Source Deep Domain Adaptation with Weak Supervision for Time-Series Sensor Data.
+https://dl.acm.org/doi/10.1145/3394486.3403229,Counterfactual Evaluation of Slate Recommendations with Sequential Reward Interactions.
+https://dl.acm.org/doi/10.1145/3394486.3403230,TAdaNet: Task-Adaptive Network for Graph-Enriched Meta-Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403231,Unsupervised Paraphrasing via Deep Reinforcement Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403232,CICLAD: A Fast and Memory-efficient Closed Itemset Miner for Streams.
+https://dl.acm.org/doi/10.1145/3394486.3403233,Graph Attention Networks over Edge Content-Based Channels.
+https://dl.acm.org/doi/10.1145/3394486.3403234,Multimodal Learning with Incomplete Modalities by Knowledge Distillation.
+https://dl.acm.org/doi/10.1145/3394486.3403235,Estimating the Percolation Centrality of Large Networks through Pseudo-dimension Theory.
+https://dl.acm.org/doi/10.1145/3394486.3403236,TinyGNN: Learning Efficient Graph Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403237,GPT-GNN: Generative Pre-Training of Graph Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403238,Parameterized Correlation Clustering in Hypergraphs and Bipartite Graphs.
+https://dl.acm.org/doi/10.1145/3394486.3403239,Prioritized Restreaming Algorithms for Balanced Graph Partitioning.
+https://dl.acm.org/doi/10.1145/3394486.3403240,A Non-Iterative Quantile Change Detection Method in Mixture Model with Heavy-Tailed Components.
+https://dl.acm.org/doi/10.1145/3394486.3403241,AdvMind: Inferring Adversary Intent of Black-Box Attacks.
+https://dl.acm.org/doi/10.1145/3394486.3403242,Hierarchical Topic Mining via Joint Spherical Tree and Text Embedding.
+https://dl.acm.org/doi/10.1145/3394486.3403243,Combinatorial Black-Box Optimization with Expert Advice.
+https://dl.acm.org/doi/10.1145/3394486.3403244,CoRel: Seed-Guided Topical Taxonomy Construction by Concept Learning and Relation Transferring.
+https://dl.acm.org/doi/10.1145/3394486.3403245,Treatment Policy Learning in Multiobjective Settings with Fully Observed Outcomes.
+https://dl.acm.org/doi/10.1145/3394486.3403246,List-wise Fairness Criterion for Point Processes.
+https://dl.acm.org/doi/10.1145/3394486.3403247,Neural Subgraph Isomorphism Counting.
+https://dl.acm.org/doi/10.1145/3394486.3403248,Hypergraph Clustering Based on PageRank.
+https://dl.acm.org/doi/10.1145/3394486.3403249,DeepSinger: Singing Voice Synthesis with Data Mined From the Web.
+https://dl.acm.org/doi/10.1145/3394486.3403250,Scaling Choice Models of Relational Social Data.
+https://dl.acm.org/doi/10.1145/3394486.3403251,Deep Exogenous and Endogenous Influence Combination for Social Chatter Intensity Prediction.
+https://dl.acm.org/doi/10.1145/3394486.3403252,Geography-Aware Sequential Location Recommendation.
+https://dl.acm.org/doi/10.1145/3394486.3403253,Dual Channel Hypergraph Collaborative Filtering.
+https://dl.acm.org/doi/10.1145/3394486.3403254,A Framework for Recommending Accurate and Diverse Items Using Bayesian Graph Convolutional Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403255,Learning Based Distributed Tracking.
+https://dl.acm.org/doi/10.1145/3394486.3403256,Tight Sensitivity Bounds For Smaller Coresets.
+https://dl.acm.org/doi/10.1145/3394486.3403257,GHashing: Semantic Graph Hashing for Approximate Similarity Search in Graph Databases.
+https://dl.acm.org/doi/10.1145/3394486.3403258,Interactive Path Reasoning on Graph for Conversational Recommendation.
+https://dl.acm.org/doi/10.1145/3394486.3403259,Algorithmic Aspects of Temporal Betweenness.
+https://dl.acm.org/doi/10.1145/3394486.3403260,Non-Linear Mining of Social Activities in Tensor Streams.
+https://dl.acm.org/doi/10.1145/3394486.3403261,DeepLine: AutoML Tool for Pipelines Generation using Deep Reinforcement Learning and Hierarchical Actions Filtering.
+https://dl.acm.org/doi/10.1145/3394486.3403262,On Sampling Top-K Recommendation Evaluation.
+https://dl.acm.org/doi/10.1145/3394486.3403263,Algorithmic Decision Making with Conditional Fairness.
+https://dl.acm.org/doi/10.1145/3394486.3403264,Semi-supervised Collaborative Filtering by Text-enhanced Domain Adaptation.
+https://dl.acm.org/doi/10.1145/3394486.3403265,Rich Information is Affordable: A Systematic Performance Analysis of Second-order Optimization Using K-FAC.
+https://dl.acm.org/doi/10.1145/3394486.3403266,Voronoi Graph Traversal in High Dimensions with Applications to Topological Data Analysis and Piecewise Linear Interpolation.
+https://dl.acm.org/doi/10.1145/3394486.3403267,MCRapper: Monte-Carlo Rademacher Averages for Poset Families and Approximate Pattern Mining.
+https://dl.acm.org/doi/10.1145/3394486.3403268,REA: Robust Cross-lingual Entity Alignment Between Knowledge Graphs.
+https://dl.acm.org/doi/10.1145/3394486.3403269,Stable Learning via Differentiated Variable Decorrelation.
+https://dl.acm.org/doi/10.1145/3394486.3403270,Learning Stable Graphs from Multiple Environments with Selection Bias.
+https://dl.acm.org/doi/10.1145/3394486.3403271,Fast RobustSTL: Efficient and Robust Seasonal-Trend Decomposition for Time Series with Complex Patterns.
+https://dl.acm.org/doi/10.1145/3394486.3403272,CurvaNet: Geometric Deep Learning based on Directional Curvature for 3D Shape Analysis.
+https://dl.acm.org/doi/10.1145/3394486.3403273,Attentional Multi-graph Convolutional Network for Regional Economy Prediction with Open Migration Data.
+https://dl.acm.org/doi/10.1145/3394486.3403274,Octet: Online Catalog Taxonomy Enrichment with Self-Supervision.
+https://dl.acm.org/doi/10.1145/3394486.3403275,TIMME: Twitter Ideology-detection via Multi-task Multi-relational Embedding.
+https://dl.acm.org/doi/10.1145/3394486.3403276,"Knowing your FATE: Friendship, Action and Temporal Explanations for User Engagement Prediction on Social Apps."
+https://dl.acm.org/doi/10.1145/3394486.3403277,Sub-Matrix Factorization for Real-Time Vote Prediction.
+https://dl.acm.org/doi/10.1145/3394486.3403278,Temporal-Contextual Recommendation in Real-Time.
+https://dl.acm.org/doi/10.1145/3394486.3403279,OptMatch: Optimized Matchmaking via Modeling the High-Order Interactions on the Arena.
+https://dl.acm.org/doi/10.1145/3394486.3403280,PinnerSage: Multi-Modal User Embedding Framework for Recommendations at Pinterest.
+https://dl.acm.org/doi/10.1145/3394486.3403281,"Polestar: An Intelligent, Efficient and National-Wide Public Transportation Routing Engine."
+https://dl.acm.org/doi/10.1145/3394486.3403282,Context-Aware Attentive Knowledge Tracing.
+https://dl.acm.org/doi/10.1145/3394486.3403283,Improving Movement Predictions of Traffic Actors in Bird's-Eye View Models using GANs and Differentiable Trajectory Rasterization.
+https://dl.acm.org/doi/10.1145/3394486.3403284,M2GRL: A Multi-task Multi-view Graph Representation Learning Framework for Web-scale Recommender Systems.
+https://dl.acm.org/doi/10.1145/3394486.3403285,Attribute-based Propensity for Unbiased Learning in Recommender Systems: Algorithm and Case Studies.
+https://dl.acm.org/doi/10.1145/3394486.3403286,Predicting Individual Treatment Effects of Large-scale Team Competitions in a Ride-sharing Economy.
+https://dl.acm.org/doi/10.1145/3394486.3403287,Cellular Network Radio Propagation Modeling with Deep Convolutional Neural Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403288,Neural Input Search for Large Scale Recommendation Models.
+https://dl.acm.org/doi/10.1145/3394486.3403289,Easy Perturbation EEG Algorithm for Spectral Importance (easyPEASI): A Simple Method to Identify Important Spectral Features of EEG in Deep Learning Models.
+https://dl.acm.org/doi/10.1145/3394486.3403290,Building Continuous Integration Services for Machine Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403291,Learning to Cluster Documents into Workspaces Using Large Scale Activity Logs.
+https://dl.acm.org/doi/10.1145/3394486.3403292,What is that Building?: An End-to-end System for Building Recognition from Streetside Images.
+https://dl.acm.org/doi/10.1145/3394486.3403293,MultiSage: Empowering GCN with Contextualized Multi-Embeddings on Web-Scale Multipartite Networks.
+https://dl.acm.org/doi/10.1145/3394486.3403294,HetETA: Heterogeneous Information Network Embedding for Estimating Time of Arrival.
+https://dl.acm.org/doi/10.1145/3394486.3403295,Hubble: An Industrial System for Audience Expansion in Mobile Marketing.
+https://dl.acm.org/doi/10.1145/3394486.3403296,Scaling Graph Neural Networks with Approximate PageRank.
+https://dl.acm.org/doi/10.1145/3394486.3403297,Combo-Attention Network for Baidu Video Advertising.
+https://dl.acm.org/doi/10.1145/3394486.3403298,Federated Doubly Stochastic Kernel Learning for Vertically Partitioned Data.
+https://dl.acm.org/doi/10.1145/3394486.3403299,To Tune or Not to Tune?: In Search of Optimal Configurations for Data Analytics.
+https://dl.acm.org/doi/10.1145/3394486.3403300,Reconstruction and Decomposition of High-Dimensional Landscapes via Unsupervised Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403301,Map Generation from Large Scale Incomplete and Inaccurate Data Labels.
+https://dl.acm.org/doi/10.1145/3394486.3403302,Grale: Designing Networks for Graph Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403303,Automatic Validation of Textual Attribute Values in E-commerce Catalog by Learning with Limited Labeled Data.
+https://dl.acm.org/doi/10.1145/3394486.3403304,CLARA: Confidence of Labels and Raters.
+https://dl.acm.org/doi/10.1145/3394486.3403305,Embedding-based Retrieval in Facebook Search.
+https://dl.acm.org/doi/10.1145/3394486.3403306,Lumos: A Library for Diagnosing Metric Regressions in Web-Scale Applications.
+https://dl.acm.org/doi/10.1145/3394486.3403307,Order Fulfillment Cycle Time Estimation for On-Demand Food Delivery.
+https://dl.acm.org/doi/10.1145/3394486.3403308,Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors.
+https://dl.acm.org/doi/10.1145/3394486.3403309,Privileged Features Distillation at Taobao Recommendations.
+https://dl.acm.org/doi/10.1145/3394486.3403310,Cracking Tabular Presentation Diversity for Automatic Cross-Checking over Numerical Facts.
+https://dl.acm.org/doi/10.1145/3394486.3403311,GrokNet: Unified Computer Vision Model Trunk and Embeddings For Commerce.
+https://dl.acm.org/doi/10.1145/3394486.3403312,Learning Instrument Invariant Characteristics for Generating High-resolution Global Coral Reef Maps.
+https://dl.acm.org/doi/10.1145/3394486.3403313,Causal Meta-Mediation Analysis: Inferring Dose-Response Function From Summary Statistics of Many Randomized Experiments.
+https://dl.acm.org/doi/10.1145/3394486.3403314,AutoFIS: Automatic Feature Interaction Selection in Factorization Models for Click-Through Rate Prediction.
+https://dl.acm.org/doi/10.1145/3394486.3403315,City Metro Network Expansion with Reinforcement Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403316,Game Action Modeling for Fine Grained Analyses of Player Behavior in Multi-player Card Games (Rummy as Case Study).
+https://dl.acm.org/doi/10.1145/3394486.3403317,Cascade-LSTM: A Tree-Structured Neural Classifier for Detecting Misinformation Cascades.
+https://dl.acm.org/doi/10.1145/3394486.3403318,Personalized Prefix Embedding for POI Auto-Completion in the Search Engine of Baidu Maps.
+https://dl.acm.org/doi/10.1145/3394486.3403319,Category-Specific CNN for Visual-aware CTR Prediction at JD.com.
+https://dl.acm.org/doi/10.1145/3394486.3403320,ConSTGAT: Contextual Spatial-Temporal Graph Attention Network for Travel Time Estimation at Baidu Maps.
+https://dl.acm.org/doi/10.1145/3394486.3403321,Faster Secure Data Mining via Distributed Homomorphic Encryption.
+https://dl.acm.org/doi/10.1145/3394486.3403322,Contagious Chain Risk Rating for Networked-guarantee Loans.
+https://dl.acm.org/doi/10.1145/3394486.3403323,AutoKnow: Self-Driving Knowledge Collection for Products of Thousands of Types.
+https://dl.acm.org/doi/10.1145/3394486.3403324,Personalized Image Retrieval with Sparse Graph Representation Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403325,Comprehensive Information Integration Modeling Framework for Video Titling.
+https://dl.acm.org/doi/10.1145/3394486.3403326,Acoustic Measures for Real-Time Voice Coaching.
+https://dl.acm.org/doi/10.1145/3394486.3403327,Geodemographic Influence Maximization.
+https://dl.acm.org/doi/10.1145/3394486.3403328,A Self-Evolving Mutually-Operative Recurrent Network-based Model for Online Tool Condition Monitoring in Delay Scenario.
+https://dl.acm.org/doi/10.1145/3394486.3403329,Maximizing Cumulative User Engagement in Sequential Recommendation: An Online Optimization Perspective.
+https://dl.acm.org/doi/10.1145/3394486.3403330,Domain Specific Knowledge Graphs as a Service to the Public: Powering Social-Impact Funding in the US.
+https://dl.acm.org/doi/10.1145/3394486.3403331,LRSpeech: Extremely Low-Resource Speech Synthesis and Recognition.
+https://dl.acm.org/doi/10.1145/3394486.3403332,Doing in One Go: Delivery Time Inference Based on Couriers' Trajectories.
+https://dl.acm.org/doi/10.1145/3394486.3403333,Improving Deep Learning for Airbnb Search.
+https://dl.acm.org/doi/10.1145/3394486.3403334,General-Purpose User Embeddings based on Mobile App Usage.
+https://dl.acm.org/doi/10.1145/3394486.3403335,Unsupervised Translation via Hierarchical Anchoring: Functional Mapping of Places across Cities.
+https://dl.acm.org/doi/10.1145/3394486.3403336,Debiasing Grid-based Product Search in E-commerce.
+https://dl.acm.org/doi/10.1145/3394486.3403337,Forecasting the Evolution of Hydropower Generation.
+https://dl.acm.org/doi/10.1145/3394486.3403338,Salience and Market-aware Skill Extraction for Job Targeting.
+https://dl.acm.org/doi/10.1145/3394486.3403339,DATE: Dual Attentive Tree-aware Embedding for Customs Fraud Detection.
+https://dl.acm.org/doi/10.1145/3394486.3403340,User Sentiment as a Success Metric: Persistent Biases Under Full Randomization.
+https://dl.acm.org/doi/10.1145/3394486.3403341,Improving Recommendation Quality in Google Drive.
+https://dl.acm.org/doi/10.1145/3394486.3403342,Large-Scale Training System for 100-Million Classification at Alibaba.
+https://dl.acm.org/doi/10.1145/3394486.3403343,Mining Implicit Relevance Feedback from User Behavior for Web Question Answering.
+https://dl.acm.org/doi/10.1145/3394486.3403344,Controllable Multi-Interest Framework for Recommendation.
+https://dl.acm.org/doi/10.1145/3394486.3403345,Managing Diversity in Airbnb Search.
+https://dl.acm.org/doi/10.1145/3394486.3403346,Molecular Inverse-Design Platform for Material Industries.
+https://dl.acm.org/doi/10.1145/3394486.3403347,Learning to Score Economic Development from Satellite Imagery.
+https://dl.acm.org/doi/10.1145/3394486.3403348,A Request-level Guaranteed Delivery Advertising Planning: Forecasting and Allocation.
+https://dl.acm.org/doi/10.1145/3394486.3403349,Two Sides of the Same Coin: White-box and Black-box Attacks for Transfer Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403350,Learning to Generate Personalized Query Auto-Completions via a Multi-View Multi-Task Attentive Approach.
+https://dl.acm.org/doi/10.1145/3394486.3403351,"A Sleeping, Recovering Bandit Algorithm for Optimizing Recurring Notifications."
+https://dl.acm.org/doi/10.1145/3394486.3403352,Multi-objective Optimization for Guaranteed Delivery in Video Service Platform.
+https://dl.acm.org/doi/10.1145/3394486.3403353,Delivery Scope: A New Way of Restaurant Retrieval for On-demand Food Delivery Service.
+https://dl.acm.org/doi/10.1145/3394486.3403354,Fraud Transactions Detection via Behavior Tree with Local Intention Calibration.
+https://dl.acm.org/doi/10.1145/3394486.3403355,Balanced Order Batching with Task-Oriented Graph Clustering.
+https://dl.acm.org/doi/10.1145/3394486.3403356,Efficiently Solving the Practical Vehicle Routing Problem: A Novel Joint Learning Approach.
+https://dl.acm.org/doi/10.1145/3394486.3403357,Meta-Learning for Query Conceptualization at Web Scale.
+https://dl.acm.org/doi/10.1145/3394486.3403358,Hybrid Spatio-Temporal Graph Convolutional Network: Improving Traffic Prediction with Navigation Data.
+https://dl.acm.org/doi/10.1145/3394486.3403359,Multitask Mixture of Sequential Experts for User Activity Streams.
+https://dl.acm.org/doi/10.1145/3394486.3403360,Identifying Homeless Youth At-Risk of Substance Use Disorder: Data-Driven Insights for Policymakers.
+https://dl.acm.org/doi/10.1145/3394486.3403361,Interleaved Sequence RNNs for Fraud Detection.
+https://dl.acm.org/doi/10.1145/3394486.3403362,Attention based Multi-Modal New Product Sales Time-series Forecasting.
+https://dl.acm.org/doi/10.1145/3394486.3403363,Pest Management In Cotton Farms: An AI-System Case Study from the Global South.
+https://dl.acm.org/doi/10.1145/3394486.3403364,TIES: Temporal Interaction Embeddings for Enhancing Social Media Integrity at Facebook.
+https://dl.acm.org/doi/10.1145/3394486.3403365,Price Investment using Prescriptive Analytics and Optimization in Retail.
+https://dl.acm.org/doi/10.1145/3394486.3403366,Climate Downscaling Using YNet: A Deep Convolutional Network with Skip Connections and Fusion.
+https://dl.acm.org/doi/10.1145/3394486.3403367,Cracking the Black Box: Distilling Deep Sports Analytics.
+https://dl.acm.org/doi/10.1145/3394486.3403368,Taming Pretrained Transformers for Extreme Multi-label Text Classification.
+https://dl.acm.org/doi/10.1145/3394486.3403369,Prediction of Hourly Earnings and Completion Time on a Crowdsourcing Platform.
+https://dl.acm.org/doi/10.1145/3394486.3403370,SimClusters: Community-Based Representations for Heterogeneous Recommendations at Twitter.
+https://dl.acm.org/doi/10.1145/3394486.3403371,Time-Aware User Embeddings as a Service.
+https://dl.acm.org/doi/10.1145/3394486.3403372,Shop The Look: Building a Large Scale Visual Shopping System at Pinterest.
+https://dl.acm.org/doi/10.1145/3394486.3403373,Dynamic Heterogeneous Graph Neural Network for Real-time Event Prediction.
+https://dl.acm.org/doi/10.1145/3394486.3403374,Bandit based Optimization of Multiple Objectives on a Music Streaming Platform.
+https://dl.acm.org/doi/10.1145/3394486.3403375,Multimodal Deep Learning Based Crop Classification Using Multispectral and Multitemporal Satellite Imagery.
+https://dl.acm.org/doi/10.1145/3394486.3403376,BusTr: Predicting Bus Travel Times from Real-Time Traffic.
+https://dl.acm.org/doi/10.1145/3394486.3403377,Characterizing and Learning Representation on Customer Contact Journeys in Cellular Services.
+https://dl.acm.org/doi/10.1145/3394486.3403378,CrowdQuake: A Networked System of Low-Cost Sensors for Earthquake Detection via Deep Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403379,An Empirical Analysis of Backward Compatibility in Machine Learning Systems.
+https://dl.acm.org/doi/10.1145/3394486.3403380,DeepTriage: Automated Transfer Assistance for Incidents in Cloud Services.
+https://dl.acm.org/doi/10.1145/3394486.3403381,"An Automatic Approach for Generating Rich, Linked Geo-Metadata from Historical Map Images."
+https://dl.acm.org/doi/10.1145/3394486.3403382,Bootstrapping Complete The Look at Pinterest.
+https://dl.acm.org/doi/10.1145/3394486.3403383,Explainable Classification of Brain Networks via Contrast Subgraphs.
+https://dl.acm.org/doi/10.1145/3394486.3403384,Jointly Learning to Recommend and Advertise.
+https://dl.acm.org/doi/10.1145/3394486.3403385,Fitbit for Chickens?: Time Series Data Mining Can Increase the Productivity of Poultry Farms.
+https://dl.acm.org/doi/10.1145/3394486.3403386,CompactETA: A Fast Inference System for Travel Time Prediction.
+https://dl.acm.org/doi/10.1145/3394486.3403387,Intelligent Exploration for User Interface Modules of Mobile App with Collective Learning.
+https://dl.acm.org/doi/10.1145/3394486.3403388,Gemini: A Novel and Universal Heterogeneous Graph Information Fusing Framework for Online Recommendations.
+https://dl.acm.org/doi/10.1145/3394486.3403389,Hypergraph Convolutional Recurrent Neural Network.
+https://dl.acm.org/doi/10.1145/3394486.3403390,Towards Building an Intelligent Chatbot for Customer Service: Learning to Respond at the Appropriate Time.
+https://dl.acm.org/doi/10.1145/3394486.3403391,Ads Allocation in Feed via Constrained Optimization.
+https://dl.acm.org/doi/10.1145/3394486.3403392,USAD: UnSupervised Anomaly Detection on Multivariate Time Series.
+https://dl.acm.org/doi/10.1145/3394486.3403393,A Dual Heterogeneous Graph Attention Network to Improve Long-Tail Performance for Shop Search in E-Commerce.
+https://dl.acm.org/doi/10.1145/3394486.3403394,Learning with Limited Labels via Momentum Damped & Differentially Weighted Optimization.
+https://dl.acm.org/doi/10.1145/3394486.3412862,Learning to Simulate Human Mobility.
+https://dl.acm.org/doi/10.1145/3394486.3412863,Data-driven Simulation and Optimization for Covid-19 Exit Strategies.
+https://dl.acm.org/doi/10.1145/3394486.3412856,Understanding the Impact of the COVID-19 Pandemic on Transportation-related Behaviors with Human Mobility Data.
+https://dl.acm.org/doi/10.1145/3394486.3412859,Simulating the Impact of Hospital Capacity and Social Isolation to Minimize the Propagation of Infectious Diseases.
+https://dl.acm.org/doi/10.1145/3394486.3412861,Effective Transfer Learning for Identifying Similar Questions: Matching User Questions to COVID-19 FAQs.
+https://dl.acm.org/doi/10.1145/3394486.3412864,Hi-COVIDNet: Deep Learning Approach to Predict Inbound COVID-19 Patients and Case Study in South Korea.
+https://dl.acm.org/doi/10.1145/3394486.3412865,Exploring Automatic Diagnosis of COVID-19 from Crowdsourced Respiratory Sound Data.
+https://dl.acm.org/doi/10.1145/3394486.3412860,Understanding the Urban Pandemic Spreading of COVID-19 with Real World Mobility Data.
+https://dl.acm.org/doi/10.1145/3394486.3409586,"Fighting a Pandemic: Convergence of Expertise, Data Science and Policy."
+https://dl.acm.org/doi/10.1145/3394486.3406697,From Zero to AI Hero with Automated Machine Learning.
+https://dl.acm.org/doi/10.1145/3394486.3406698,Put Deep Learning to Work: Accelerate Deep Learning through Amazon SageMaker and ML Services.
+https://dl.acm.org/doi/10.1145/3394486.3406699,Building Forecasting Solutions Using Open-Source and Azure Machine Learning.
+https://dl.acm.org/doi/10.1145/3394486.3406700,How to Calibrate your Neural Network Classifier: Getting True Probabilities from a Classification Model.
+https://dl.acm.org/doi/10.1145/3394486.3406701,Neural Structured Learning: Training Neural Networks with Structured Signals.
+https://dl.acm.org/doi/10.1145/3394486.3406702,Accelerating and Expanding End-to-End Data Science Workflows with DL/ML Interoperability Using RAPIDS.
+https://dl.acm.org/doi/10.1145/3394486.3406703,DeepSpeed: System Optimizations Enable Training Deep Learning Models with Over 100 Billion Parameters.
+https://dl.acm.org/doi/10.1145/3394486.3406704,Robust Deep Learning Methods for Anomaly Detection.
+https://dl.acm.org/doi/10.1145/3394486.3406706,"Faster, Simpler, More Accurate: Practical Automated Machine Learning with Tabular, Text, and Image Data."
+https://dl.acm.org/doi/10.1145/3394486.3406707,Intelligible and Explainable Machine Learning: Best Practices and Practical Challenges.
+https://dl.acm.org/doi/10.1145/3394486.3406708,Dealing with Bias and Fairness in Data Science Systems: A Practical Hands-on Tutorial.
+https://dl.acm.org/doi/10.1145/3394486.3406709,Deep Learning for Search and Recommender Systems in Practice.
+https://dl.acm.org/doi/10.1145/3394486.3406710,Computer Vision: Deep Dive into Object Segmentation Approaches.
+https://dl.acm.org/doi/10.1145/3394486.3406711,In Search for a Cure: Recommendation With Knowledge Graph on CORD-19.
+https://dl.acm.org/doi/10.1145/3394486.3406712,Scalable Graph Neural Networks with Deep Graph Library.
+https://dl.acm.org/doi/10.1145/3394486.3406713,Introduction to Computer Vision and Real Time Deep Learning-based Object Detection.
+https://dl.acm.org/doi/10.1145/3394486.3406714,Building Recommender Systems with PyTorch.
+https://dl.acm.org/doi/10.1145/3394486.3406460,Causal Inference Meets Machine Learning.
+https://dl.acm.org/doi/10.1145/3394486.3406461,Fairness in Machine Learning for Healthcare.
+https://dl.acm.org/doi/10.1145/3394486.3406462,Learning from All Types of Experiences: A Unifying Machine Learning Perspective.
+https://dl.acm.org/doi/10.1145/3394486.3406463,Advances in Recommender Systems: From Multi-stakeholder Marketplaces to Automated RecSys.
+https://dl.acm.org/doi/10.1145/3394486.3406464,Physics Inspired Models in Artificial Intelligence.
+https://dl.acm.org/doi/10.1145/3394486.3406465,Scientific Text Mining and Knowledge Graphs.
+https://dl.acm.org/doi/10.1145/3394486.3406466,Learning with Small Data.
+https://dl.acm.org/doi/10.1145/3394486.3406467,"Adversarial Attacks and Defenses: Frontiers, Advances and Practice."
+https://dl.acm.org/doi/10.1145/3394486.3406468,"Multi-modal Information Extraction from Text, Semi-structured, and Tabular Data on the Web."
+https://dl.acm.org/doi/10.1145/3394486.3406469,Recent Advances on Graph Analytics and Its Applications in Healthcare.
+https://dl.acm.org/doi/10.1145/3394486.3406470,Tutorial on Human-Centered Explainability for Healthcare.
+https://dl.acm.org/doi/10.1145/3394486.3406471,Recent Advances in Multimodal Educational Data Mining in K-12 Education.
+https://dl.acm.org/doi/10.1145/3394486.3406472,Tutorial on Online User Engagement: Metrics and Optimization.
+https://dl.acm.org/doi/10.1145/3394486.3406473,Data Pricing - From Economics to Data Science.
+https://dl.acm.org/doi/10.1145/3394486.3406474,"Deep Graph Learning: Foundations, Advances and Applications."
+https://dl.acm.org/doi/10.1145/3394486.3406475,Multi-modal Network Representation Learning.
+https://dl.acm.org/doi/10.1145/3394486.3406476,Data Science for the Real Estate Industry.
+https://dl.acm.org/doi/10.1145/3394486.3406477,Overview and Importance of Data Quality for Machine Learning Tasks.
+https://dl.acm.org/doi/10.1145/3394486.3406478,Interpreting and Explaining Deep Neural Networks: A Perspective on Time Series Data.
+https://dl.acm.org/doi/10.1145/3394486.3406479,Edge AI: Systems Design and ML for IoT Data Analytics.
+https://dl.acm.org/doi/10.1145/3394486.3406480,Data Sketching for Real Time Analytics: Theory and Practice.
+https://dl.acm.org/doi/10.1145/3394486.3406481,Deep Learning for Anomaly Detection.
+https://dl.acm.org/doi/10.1145/3394486.3406482,"Deep Learning for Industrial AI: Challenges, New Methods and Best Practices."
+https://dl.acm.org/doi/10.1145/3394486.3406483,Embedding-Driven Multi-Dimensional Topic Mining and Text Analysis.
+https://dl.acm.org/doi/10.1145/3394486.3406484,Learning by Exploration: New Challenges in Real-World Environments.
+https://dl.acm.org/doi/10.1145/3394486.3406485,Image and Video Understanding for Recommendation and Spam Detection Systems.
+https://dl.acm.org/doi/10.1145/3394486.3406486,Data-Driven Never-Ending Learning Question Answering Systems.
+https://dl.acm.org/doi/10.1145/3394486.3411063,How Can Computer Science Education Address Inequities.
+https://dl.acm.org/doi/10.1145/3394486.3411064,"Diversity and Inclusion, a Perspective from a Four Years MSI Faculty Member."
+https://dl.acm.org/doi/10.1145/3394486.3411065,CoRE Lab - An Effort to Engage College Hispanic Students in STEM.
+https://dl.acm.org/doi/10.1145/3394486.3411066,Support for Diverse Students.
+https://dl.acm.org/doi/10.1145/3394486.3411067,Broadening Participation in Technology Policy.
+https://dl.acm.org/doi/10.1145/3394486.3411068,"The Dark Side of Machine Learning Algorithms: How and Why They Can Leverage Bias, and What Can Be Done to Pursue Algorithmic Fairness."
+https://dl.acm.org/doi/10.1145/3394486.3411069,Accessible Online Meetings and Presentations.
+https://dl.acm.org/doi/10.1145/3394486.3411070,"Perspectives on Broadening Participation in STEM Careers across Academia, Government, and Industry."
+https://dl.acm.org/doi/10.1145/3394486.3411071,The Illusion of Inclusion: Large Scale Genomic Data Sovereignty and Indigenous Populations.
+https://dl.acm.org/doi/10.1145/3394486.3411072,Models of Data Governance and Advancing Indigenous Genomic Data Sovereignty.
+https://dl.acm.org/doi/10.1145/3394486.3411074,No Computation without Representation: Avoiding Data and Algorithm Biases through Diversity.
+https://dl.acm.org/doi/10.1145/3394486.3411075,Mutually Beneficial Collaborations to Broaden Participation of Hispanics in Data Science.
+https://dl.acm.org/doi/10.1145/3394486.3411076,Bringing Inclusive Diversity to Data Science: Opportunities and Challenges.
+https://dl.acm.org/d

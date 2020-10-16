@@ -21,17 +21,23 @@ func (scrap *dblp_scrap) init(mode string, target string, year string){
 	scrap.c = colly.NewCollector(
 		colly.AllowedDomains("dblp.org"),
 		colly.Async(true),
+		colly.UserAgent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"),
 	)
 	scrap.link_channel = make(chan string, 10240)
 	scrap.content_channel = make(chan [2]string, 10240)
 	scrap.mode = mode
 	scrap.target = target
 	scrap.base_link = "https://dblp.org/db/" + scrap.mode + "/" + scrap.target + "/" + scrap.target + year + ".html"
-
-	scrap.c.OnHTML(".entry.inproceedings", func(e *colly.HTMLElement) {
+	var c string
+	if mode == "journals"{
+		c = ".entry.article"
+	} else {
+		c = ".entry.inproceedings"
+	}
+	scrap.c.OnHTML(c, func(e *colly.HTMLElement) {
 		scrap.content_channel <- [2]string{e.ChildAttr("li.ee a", "href"),e.ChildText("span.title")}
 		// fmt.Println(e.ChildAttr("li.ee a", "href"))  // doi and link to conf
-		fmt.Println(e.ChildText("span.title"))  // title
+		// fmt.Println(e.ChildText("span.title"))  // title
 		scrap.link_channel <- e.ChildAttr("li.ee a", "href")
 	})
 
@@ -48,6 +54,9 @@ func (scrap *dblp_scrap) init(mode string, target string, year string){
 func (scrap *dblp_scrap) visit(){
 	scrap.c.Visit(scrap.base_link)
 	scrap.c.Wait()
+}
+
+func (scrap *dblp_scrap) close(){
 	close(scrap.content_channel)
 	close(scrap.link_channel)
 }

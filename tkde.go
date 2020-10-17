@@ -8,29 +8,16 @@ import (
 	"encoding/json"
 	"os"
 	"sync"
-	"net/url"
 )
 
-type author struct{
-	Name string `json:"name"`
-	Id string `json:"id"`
-}
 
-type paper struct{
-	title string
-	doi string
-	abstract string
-	authors []author
-	references []string
-}
-
-type kdd_scrap struct{
+type tkde_scrap struct{
 	c *colly.Collector
 	paper_channel chan paper
 	wg *sync.WaitGroup
 }
 
-func (scrap * kdd_scrap) init(paralle int){
+func (scrap * tkde_scrap) init(paralle int){
 	scrap.c = colly.NewCollector(
 		colly.AllowedDomains("dl.acm.org"),
 		colly.Async(true),
@@ -68,26 +55,19 @@ func (scrap * kdd_scrap) init(paralle int){
 	})
 }
 
-func (scrap *kdd_scrap) visit(link string){
+func (scrap *tkde_scrap) visit(link string){
 	defer scrap.wg.Done()
 	scrap.wg.Add(1)
-	u, err := url.Parse(link)
-	if err!= nil{
-		fmt.Println("url parse error")
-	}
-	if u.Host == "doi.org"{
-		link = "https://dl.acm.org/doi" + u.Path
-	}
 	scrap.c.Visit(link)
+	scrap.c.Wait()
 }
 
-func (scrap *kdd_scrap) close(){
+func (scrap *tkde_scrap) close(){
 	close(scrap.paper_channel)
-	scrap.c.Wait()
 	scrap.wg.Wait()
 }
 
-func (scrap *kdd_scrap) save(fname string){
+func (scrap *tkde_scrap) save(fname string){
 	defer scrap.wg.Done()
 	scrap.wg.Add(1)
 	file, err:=os.Create(fname)
@@ -110,12 +90,11 @@ func (scrap *kdd_scrap) save(fname string){
 			fmt.Println("cannot marchal references")
 			return
 		}
-		fmt.Println("write:"+i.title)
 		writer.Write([]string{i.doi,i.title,i.abstract,string(a),string(r)})
 	}
 }
 
-// var scrap kdd_scrap
+// var scrap tkde_scrap
 
 // func main(){
 // 	scrap.init()

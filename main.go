@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"runtime"
+	// "net/url"
 	"flag"
 )
 
@@ -15,15 +15,14 @@ var volume = flag.String("volume","2020","year or volume")
 
 func main(){
 	flag.Parse()
-	runtime.GOMAXPROCS(10)
-	d_scrap.init(mode, target, volume)
-	k_scrap.init()
+	d_scrap.init(*mode, *target, *volume, 10)
+	k_scrap.init(10)
 	fmt.Println(d_scrap.base_link)
 	go d_scrap.visit()
-	go d_scrap.save(".dblp_conf_kdd_2020.csv")
-	go k_scrap.save(".conf_kdd_2020.csv")
+	go d_scrap.save(".dblp_"+*mode+"_"+*target+"_"+*volume+".csv")
+	go k_scrap.save("."+*mode+"_"+*target+"_"+*volume+".csv")
 	for i:= range d_scrap.link_channel{
-		k_scrap.visit(i)
+		go k_scrap.visit(i)
 	}
 	d_scrap.close()
 	k_scrap.close()

@@ -4,9 +4,6 @@ import (
 	"fmt"
 	"time"
 	"github.com/gocolly/colly"
-	"encoding/csv"
-	"os"
-	"sync"
 )
 
 type dblp_scrap struct{
@@ -16,7 +13,6 @@ type dblp_scrap struct{
 	target string
 	link_channel chan string
 	content_channel chan [2]string
-	wg *sync.WaitGroup
 }
 
 func (scrap *dblp_scrap) init(mode string, target string, year string, paralle int){
@@ -29,7 +25,6 @@ func (scrap *dblp_scrap) init(mode string, target string, year string, paralle i
 	scrap.content_channel = make(chan [2]string, 10240)
 	scrap.mode = mode
 	scrap.target = target
-	scrap.wg = &sync.WaitGroup{}
 	scrap.base_link = "https://dblp.org/db/" + scrap.mode + "/" + scrap.target + "/" + scrap.target + year + ".html"
 	var c string
 	if mode == "journals"{
@@ -55,8 +50,6 @@ func (scrap *dblp_scrap) init(mode string, target string, year string, paralle i
 }
 
 func (scrap *dblp_scrap) visit(){
-	defer scrap.wg.Done()
-	scrap.wg.Add(1)
 	scrap.c.Visit(scrap.base_link)
 }
 
@@ -64,25 +57,22 @@ func (scrap *dblp_scrap) close(){
 	close(scrap.content_channel)
 	close(scrap.link_channel)
 	scrap.c.Wait()
-	scrap.wg.Wait()
 }
 
-func (scrap *dblp_scrap) save(fname string){
-	defer scrap.wg.Done()
-	scrap.wg.Add(1)
-	file, err:=os.Create(fname)
-	if err!=nil{
-		fmt.Println("cannot creat file")
-		return
-	}
-	defer file.Close()
-	writer := csv.NewWriter(file)
-	writer.Write([]string{"link", "title"})
-	defer writer.Flush()
-	for i:= range scrap.content_channel{
-		writer.Write([]string{i[0], i[1]})
-	}
-}
+// func (scrap *dblp_scrap) save(fname string){
+// 	file, err:=os.Create(fname)
+// 	if err!=nil{
+// 		fmt.Println("cannot creat file")
+// 		return
+// 	}
+// 	defer file.Close()
+// 	writer := csv.NewWriter(file)
+// 	defer writer.Flush()
+// 	writer.Write([]string{"link", "title"})
+// 	for i:= range scrap.content_channel{
+// 		writer.Write([]string{i[0], i[1]})
+// 	}
+// }
 
 // var scrap dblp_scrap
 

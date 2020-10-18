@@ -7,7 +7,6 @@ import (
 	"encoding/csv"
 	"encoding/json"
 	"os"
-	"sync"
 	"net/url"
 )
 
@@ -27,7 +26,6 @@ type paper struct{
 type kdd_scrap struct{
 	c *colly.Collector
 	paper_channel chan paper
-	wg *sync.WaitGroup
 }
 
 func (scrap * kdd_scrap) init(paralle int){
@@ -37,7 +35,6 @@ func (scrap * kdd_scrap) init(paralle int){
 		colly.UserAgent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"),
 	)
 	scrap.paper_channel = make(chan paper, 10240)
-	scrap.wg = &sync.WaitGroup{}
 	
 	scrap.c.OnHTML("article", func(e *colly.HTMLElement) {
 		var p paper
@@ -55,6 +52,7 @@ func (scrap * kdd_scrap) init(paralle int){
 			ref := el.ChildText("span.references__note")
 			p.references = append(p.references, ref)
 		})
+		fmt.Println("get:"+p.title)
 		scrap.paper_channel <- p
 	})
 
@@ -69,8 +67,6 @@ func (scrap * kdd_scrap) init(paralle int){
 }
 
 func (scrap *kdd_scrap) visit(link string){
-	defer scrap.wg.Done()
-	scrap.wg.Add(1)
 	u, err := url.Parse(link)
 	if err!= nil{
 		fmt.Println("url parse error")
@@ -84,21 +80,20 @@ func (scrap *kdd_scrap) visit(link string){
 func (scrap *kdd_scrap) close(){
 	close(scrap.paper_channel)
 	scrap.c.Wait()
-	scrap.wg.Wait()
 }
 
 func (scrap *kdd_scrap) save(fname string){
-	defer scrap.wg.Done()
-	scrap.wg.Add(1)
 	file, err:=os.Create(fname)
 	if err!=nil{
 		fmt.Println("cannot creat file")
 		return
+	} else {
+		fmt.Println("creat:"+fname)
 	}
 	defer file.Close()
 	writer := csv.NewWriter(file)
-	writer.Write([]string{"doi", "title","abstract","authors","references"})
 	defer writer.Flush()
+	writer.Write([]string{"doi", "title","abstract","authors","references"})
 	for i:= range scrap.paper_channel{
 		a, err := json.Marshal(i.authors)
 		if err != nil {

@@ -4,10 +4,12 @@ import (
 	"fmt"
 	"time"
 	"github.com/gocolly/colly"
+	"github.com/gocolly/colly/extensions"
 	"encoding/csv"
 	"encoding/json"
 	"os"
 	"net/url"
+	// "sync"
 )
 
 type author struct{
@@ -26,16 +28,19 @@ type paper struct{
 type kdd_scrap struct{
 	c *colly.Collector
 	paper_channel chan paper
+	// wg *sync.WaitGroup
 }
 
 func (scrap * kdd_scrap) init(paralle int){
 	scrap.c = colly.NewCollector(
 		colly.AllowedDomains("dl.acm.org"),
-		colly.Async(true),
-		colly.UserAgent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"),
+		colly.Async(false),
+		// colly.UserAgent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"),
 	)
+	extensions.RandomUserAgent(scrap.c)
+    extensions.Referer(scrap.c)
 	scrap.paper_channel = make(chan paper, 10240)
-	
+	// scrap.wg = &sync.WaitGroup{}
 	scrap.c.OnHTML("article", func(e *colly.HTMLElement) {
 		var p paper
 		p.title = e.ChildText(".citation__title")
@@ -52,17 +57,21 @@ func (scrap * kdd_scrap) init(paralle int){
 			ref := el.ChildText("span.references__note")
 			p.references = append(p.references, ref)
 		})
-		fmt.Println("get:"+p.title)
+		fmt.Println("parse:"+p.title)
 		scrap.paper_channel <- p
 	})
 
 	scrap.c.Limit(&colly.LimitRule{
-		Parallelism: paralle,
+		// Parallelism: paralle,
 		RandomDelay: 5 * time.Second,
 	})
 
 	scrap.c.OnRequest(func(r *colly.Request) {
-		fmt.Println("Visiting", r.URL.String())
+		fmt.Println("Visitng:"+ r.URL.String())
+	})
+
+	scrap.c.OnResponse(func(r *colly.Response){
+		fmt.Println("Get:"+r.Request.URL.String())
 	})
 }
 
@@ -79,10 +88,14 @@ func (scrap *kdd_scrap) visit(link string){
 
 func (scrap *kdd_scrap) close(){
 	close(scrap.paper_channel)
+	// scrap.wg.Wait()
 	scrap.c.Wait()
 }
 
 func (scrap *kdd_scrap) save(fname string){
+	// scrap.wg.Add(1)
+	// defer scrap.wg.Done()
+	defer fmt.Println("over")
 	file, err:=os.Create(fname)
 	if err!=nil{
 		fmt.Println("cannot creat file")

@@ -24,8 +24,12 @@ headers = {'User-Agent':"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHT
 r = requests.get(dblp_link, headers=headers).content
 soup = bs(r, "lxml")
 link_list = list()
-for i in soup.select('.entry.article'):
-    link_list.append(i.select('li.ee a')[0]['href'])
+if arg.mode == "journals":
+    for i in soup.select('.entry.article'):
+        link_list.append(i.select('li.ee a')[0]['href'])
+else:
+    for i in soup.select('.entry.inproceedings'):
+        link_list.append(i.select('li.ee a')[0]['href'])
 
 option = webdriver.ChromeOptions()
 option.add_argument('headless')
